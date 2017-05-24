@@ -25,7 +25,7 @@ SECRET_KEY = '!&zkjwlpx1(*id%2z9@*mx!afsfcp28krb#6%suu8ykrv7!g@n'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['46.101.50.233']
 
 
 # Application definition
@@ -80,9 +80,9 @@ DATABASES = {
         'ENGINE': 'django.db.backends.mysql',
         'NAME': 'eGames',
         'USER': 'player',
-        'PASSWORD': 'player',
-        'HOST': '',
-        'PORT': '',
+        'PASSWORD': '*#FCK#jd^@GITHUB-3e02ec00',
+        'HOST': '46.101.50.233',
+        'PORT': '3306',
     }
 }
 
@@ -124,3 +124,4 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/1.10/howto/static-files/
 
 STATIC_URL = '/static/'
+STATIC_ROOT = "/static/"
